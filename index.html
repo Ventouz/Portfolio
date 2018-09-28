@@ -25,7 +25,7 @@
         <link href="css/creative.css" rel="stylesheet">
         <script language="javascript">
 			var currentPage = 1;
-			var nbPage = 6;
+			var nbPage = 5;
 			function switchTo(cible){
 				document.getElementById('page'+currentPage.toString()).style.display = 'none';
 				document.getElementById('bp'+currentPage.toString()).className = '';
@@ -528,6 +528,9 @@
                     </li>
                     <li id="bp4">
                         <a onClick="switchTo(4)" href="#portfolio" class="page-scroll">4</a>
+                    </li>
+                    <li id="bp5">
+                        <a onClick="switchTo(5)" href="#portfolio" class="page-scroll">5</a>
                     </li>
                     <li>
                         <a onClick="switchPage(1)" href="#portfolio" class="page-scroll">&raquo;</a>
